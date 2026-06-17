@@ -1,3 +1,6 @@
+/*
+	IMAGE BACKGROUNDS
+*/
 .bp1{
 	height: 90vh;
 	background-image: url(images/nge_moon.gif);
@@ -28,6 +31,10 @@
 }
 
 
+
+/*
+	HEADER COLORS AND CENTERING
+*/
 .head1{
 	display: flex;
 	justify-content: center;
@@ -56,6 +63,12 @@
 	color: lightgoldenrodyellow;
 }
 
+
+
+
+/*
+	CENTERING OF VIDEOS
+*/
 .vid-rei{
 	margin: 0;
 	padding: 0;
@@ -73,12 +86,28 @@
 	align-items: center;
 }
 
+
+
+/*
+	PARAGRAPH COLORS
+*/
 #intro{
 	color: floralwhite;
 	font-size: 24pt;
 	text-align: center;
 }
 
+#dbz{
+	color: floralwhite;
+	font-size: 24pt;
+	text-align: center;
+}
+
+
+
+/*
+	CENTERING IMAGES INDEX
+*/
 .p1-images{
 	margin: 0;
 	padding: 0;
@@ -87,6 +116,11 @@
 	align-items: center;
 }
 
+
+
+/*
+	SPACING BETWEEN IMGS AND VIDS
+*/
 .p1-pathway{
 	margin-left: 50px;
 	width: 350px;
@@ -95,4 +129,10 @@
 
 .vid-space{
 	margin-left: 50px;
+}
+
+.back-home{
+	margin-bottom: 50px;
+	width: 150px;
+	height: 150px;
 }
