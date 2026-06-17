@@ -1,5 +1,3 @@
-/*THESE ARE THE BACKGROUND 
-IMAGES FOR EACH PAGE*/
 .bp1{
 	height: 90vh;
 	background-image: url(images/nge_moon.gif);
@@ -30,10 +28,6 @@ IMAGES FOR EACH PAGE*/
 }
 
 
-
-
-/*THESE ARE THE HEADERS
-AND THEIR COLORS*/
 .head1{
 	display: flex;
 	justify-content: center;
@@ -62,11 +56,6 @@ AND THEIR COLORS*/
 	color: lightgoldenrodyellow;
 }
 
-
-
-
-/*THESE ARE THE VIDEOS 
-AND THEM BEING CENTERED*/
 .vid-rei{
 	margin: 0;
 	padding: 0;
@@ -84,28 +73,11 @@ AND THEM BEING CENTERED*/
 	align-items: center;
 }
 
-
-
-
-/*THESE ARE THE PARAGRAPHS 
-COLOR AND BEING CENTERED*/
 #intro{
 	color: floralwhite;
 	font-size: 24pt;
 	text-align: center;
 }
-
-#dbz{
-	color: floralwhite;
-	font-size: 24pt;
-	text-align: center;
-}
-
-
-
-
-/*THIS CENTERS THE IMAGES 
-AT THE BOTTOM OF INDEX.HTML*/
 
 .p1-images{
 	margin: 0;
@@ -114,12 +86,6 @@ AT THE BOTTOM OF INDEX.HTML*/
 	justify-content: center;
 	align-items: center;
 }
-
-
-
-
-/*THIS SPREADS OUT THE IMAGES 
-AND VIDS*/
 
 .p1-pathway{
 	margin-left: 50px;
