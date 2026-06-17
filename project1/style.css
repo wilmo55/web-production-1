@@ -53,14 +53,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: lightgoldenrodyellow;
+	color: darkblue;
 }
 
 .head4{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: lightgoldenrodyellow;
+	color: darkred;
 }
 
 
@@ -103,7 +103,11 @@
 	text-align: center;
 }
 
-
+#core{
+	color: paleturquoise;
+	font-size: 24pt;
+	text-align: center;
+}
 
 /*
 	CENTERING IMAGES INDEX
