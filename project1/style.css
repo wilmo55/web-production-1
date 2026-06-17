@@ -1,0 +1,53 @@
+.bp1{
+	height: 100vh;
+	background-image: url(images/nge_moon.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bp2{
+	height: 100vh;
+	background-image: url(images/nostalgia.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.head1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: darkmagenta;
+}
+
+.head2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: lightgoldenrodyellow;
+}
+
+.vid-rei{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+#intro{
+	color: floralwhite;
+	font-size: 24pt;
+	text-align: center;
+}
+
+.p1-images{
+	margin-left: 100px;
+}
+
+.nostalgia{
+	margin-left: 50px;
+	width: 350px;
+	height: 200px;
+}
