@@ -1,5 +1,7 @@
+/*THESE ARE THE BACKGROUND 
+IMAGES FOR EACH PAGE*/
 .bp1{
-	height: 100vh;
+	height: 90vh;
 	background-image: url(images/nge_moon.gif);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -7,12 +9,31 @@
 }
 
 .bp2{
-	height: 100vh;
+	height: 90vh;
 	background-image: url(images/nostalgia.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
+.bp3{
+	height: 90vh;
+	background-image: url(images/present.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.bp4{
+	height: 90vh;
+	background-image: url(images/future.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+/*THESE ARE THE HEADERS
+AND THEIR COLORS*/
 .head1{
 	display: flex;
 	justify-content: center;
@@ -27,6 +48,25 @@
 	color: lightgoldenrodyellow;
 }
 
+.head3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: lightgoldenrodyellow;
+}
+
+.head4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: lightgoldenrodyellow;
+}
+
+
+
+
+/*THESE ARE THE VIDEOS 
+AND THEM BEING CENTERED*/
 .vid-rei{
 	margin: 0;
 	padding: 0;
@@ -36,18 +76,57 @@
 	margin-top: 50px;
 }
 
+.vids-past{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/*THESE ARE THE PARAGRAPHS 
+COLOR AND BEING CENTERED*/
 #intro{
 	color: floralwhite;
 	font-size: 24pt;
 	text-align: center;
 }
 
-.p1-images{
-	margin-left: 100px;
+#dbz{
+	color: floralwhite;
+	font-size: 24pt;
+	text-align: center;
 }
 
-.nostalgia{
+
+
+
+/*THIS CENTERS THE IMAGES 
+AT THE BOTTOM OF INDEX.HTML*/
+
+.p1-images{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/*THIS SPREADS OUT THE IMAGES 
+AND VIDS*/
+
+.p1-pathway{
 	margin-left: 50px;
 	width: 350px;
 	height: 200px;
+}
+
+.vid-space{
+	margin-left: 50px;
 }
